@@ -1,5 +1,4 @@
 from django.db import models
-from djmoney.models.fields import MoneyField
 from currencies.models import Currency
 from django.shortcuts import reverse
 from dj.choices import Choices, Choice
