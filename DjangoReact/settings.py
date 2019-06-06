@@ -26,7 +26,7 @@ SECRET_KEY = '$eq)9))b&2(jvbbeul6%9w2a(96+q=py25i^=acsnxdmdmc6%x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoreactcafe.herokuapp.com']
 
 
 # Application definition
