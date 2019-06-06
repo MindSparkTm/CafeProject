@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6868a73d-4a05-4147-b0e6-511ba0cd3da3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoReact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoReact/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="1" />
           <entry key="css" value="6" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="2" />
@@ -50,8 +53,9 @@
           <entry key="jpg" value="4" />
           <entry key="js" value="62" />
           <entry key="json" value="3" />
-          <entry key="py" value="50" />
-          <entry key="txt" value="3" />
+          <entry key="md" value="1" />
+          <entry key="py" value="52" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -61,18 +65,20 @@
           <entry key="Image" value="4" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="62" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="50" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="10" />
           <entry key="css" value="6" />
           <entry key="gitignore" value="23" />
           <entry key="html" value="176" />
           <entry key="js" value="11291" />
           <entry key="json" value="4" />
-          <entry key="py" value="2157" />
+          <entry key="py" value="2163" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
@@ -82,14 +88,56 @@
           <entry key="HTML" value="176" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="11291" />
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="2157" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="2163" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-763" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/documentation.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoReact/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -139,13 +187,14 @@
         <option value="$PROJECT_DIR$/frontend/src/PanelHeading.js" />
         <option value="$PROJECT_DIR$/frontend/src/AddOrderPanel.js" />
         <option value="$PROJECT_DIR$/frontend/src/createmenu.js" />
-        <option value="$PROJECT_DIR$/DjangoReact/settings.py" />
         <option value="$PROJECT_DIR$/frontend/src/Navbar.js" />
         <option value="$PROJECT_DIR$/frontend/src/CafeReact.js" />
         <option value="$PROJECT_DIR$/cafe/models.py" />
         <option value="$PROJECT_DIR$/frontend/src/App.css" />
         <option value="$PROJECT_DIR$/frontend/src/CafeMenu.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/DjangoReact/settings.py" />
       </list>
     </option>
   </component>
@@ -184,6 +233,28 @@
             <path>
               <item name="DjangoReact" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoReact" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,8 +334,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4939173" visible="true" weight="0.22665602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4939173" visible="true" weight="0.22665602" />
       <window_info id="Structure" order="1" sideWeight="0.5060827" side_tool="true" weight="0.3216281" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,7 +350,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32626426" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,20 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoReact/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -477,9 +535,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/CafeReact.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,6 +588,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-763" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/documentation.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoReact/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
         </state>
       </provider>
     </entry>
