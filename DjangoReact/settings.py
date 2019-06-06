@@ -26,7 +26,7 @@ SECRET_KEY = '$eq)9))b&2(jvbbeul6%9w2a(96+q=py25i^=acsnxdmdmc6%x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoreactcafe.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -98,19 +98,23 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 import dj_database_url
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'djangoreact',
+#         'USER': 'test',
+#         'PASSWORD': 'abc123**!!',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangoreact',
-        'USER': 'test',
-        'PASSWORD': 'abc123**!!',
-        'HOST': 'localhost',
-        'PORT': '',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
     }
 }
 
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
