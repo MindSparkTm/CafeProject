@@ -103,7 +103,7 @@ DATABASES = {
         'NAME': 'djangoreact',
         'USER': 'test',
         'PASSWORD': 'abc123**!!',
-        'HOST': 'localhost',
+        'HOST': 'djangoreactcafe.herokuapp.com',
         'PORT': '',
     }
 }
